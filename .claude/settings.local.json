@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start:*)",
+      "Bash(cmd.exe /c \"taskkill /PID 30724 /F\")",
+      "Bash(cmd.exe /c \"netstat -ano | findstr :8081\")"
+    ]
+  }
+}
